@@ -15,6 +15,7 @@
 }
 .center{
     text-align: center;
+    justify-content: center;
 }
 .d-flex{
     display: flex;
@@ -39,7 +40,17 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/i\ 2.png);
-
+}
+.contact{
+    font-family: "zagtext";
+    color: brown;
+}
+footer{
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/i\ 2.png);
+    padding: 10px 15vw;
 }
 .name{
     position: absolute; 
@@ -86,13 +97,21 @@ header{
     padding: 10vh 10vw;
     gap: 40px;
 }
-
+.pobeda{
+    background-image: url(../img/eboalZXWcko.jpg);
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .textcontainer {
     width: 25vw;
     font-size: 1.2rem;
     line-height: 1.5;
 }
-
+.tp{
+    margin: 0 10px;
+    font-size: 25px;
+}
 .img {
     width: 35vw;
     height: 50vh;
@@ -103,6 +122,25 @@ header{
     height: 25vh;
     margin: 10px;
 }
+.tbook{
+    color: brown;
+    font-size: 10vh;
+}
+.book{
+    height: auto;
+    padding: 10px 0;
+    width: 40vw;
+    background-color: rgb(51, 102, 0);
+    margin-bottom: 10px;
+   }
+   .white{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+   }
+   .red{
+    color: brown;
+    font-size: 5vh;
+   }
 /* Для мобильных устройств можно добавить медиа-запрос */
 @media (max-width: 768px) {
     .card {
@@ -147,6 +185,7 @@ header{
         font-family: "zagtext"; 
         font-size: 50px;     
     }
+   
    
 }
 @media (max-width: 1100px) {
