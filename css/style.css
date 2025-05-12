@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "maintext";
+    src: url(../fonts/GentiumBookPlus-Regular.ttf);
+}
+@font-face {
+    font-family: "zagtext";
+    src: url(../fonts/DelaGothicOne-Regular.ttf);
+}
+.maintext{
+    font-family: "maintext";
+}
+.center{
+    text-align: center;
+    justify-content: center;
+}
+.d-flex{
+    display: flex;
+}
+.top{
+    margin-top: 5vh;
+}
+header{
+    text-align: center;
+    background-color: rgb(163, 163, 163);
+}
+.textheader{
+    font-family: "maintext";
+    font-size: 20px;
+}
+.zag{
+    font-family: "zagtext";
+    font-size: 50px;
+}
+.main{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/i\ 2.png);
+}
+.contact{
+    font-family: "zagtext";
+    color: brown;
+}
+footer{
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/i\ 2.png);
+    padding: 10px 15vw;
+}
+.name{
+    position: absolute; 
+    top: 15%; 
+    padding: 0 350px;
+    font-family: "zagtext"; 
+    font-size: 70px;     
+}
+.numbers{
+    height: 100vh;
+}
+.lenta{
+    width: 100%;
+}
+
+.first{
+    background-image: url(../img/Rectangle\ 5.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    height: auto;
+}
+.card{
+    padding: 10vh 10vw;
+}
+.textcontainer{
+    width: 25vw;
+   
+}
+.img{
+    width: 45vw;
+    height: 50vh;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10vh 10vw;
+    gap: 40px;
+}
+.pobeda{
+    background-image: url(../img/eboalZXWcko.jpg);
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.textcontainer {
+    width: 25vw;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.tp{
+    margin: 0 10px;
+    font-size: 25px;
+}
+.img {
+    width: 35vw;
+    height: 50vh;
+    /* object-fit: cover; */
+}
+.gallery{
+    width: 20vw;
+    height: 25vh;
+    margin: 10px;
+}
+.tbook{
+    color: brown;
+    font-size: 10vh;
+}
+/* изображения для книг */
+#book1{
+    background-image: url(../img/book1.png);
+    background-color: brown;
+}
+#book2{
+    background-image: url(../img/book2.jpg);
+    background-color: rgb(72, 53, 53);
+}
+#book3{
+    background-image: url(../img/book3.1.png);
+    background-color: rgb(107, 9, 9);
+}
+#book4{
+    background-image: url(../img/book4.png);
+    background-color: rgb(107, 9, 9);
+}
+#book5{
+    background-image: url(../img/book5.jpg);
+    background-color: rgb(107, 9, 9);
+}
+#book6{
+    background-image: url(../img/book6.jpg);
+    background-color: rgb(107, 9, 9);
+}
+.book{
+  
+    background-repeat: no-repeat;  
+    background-position: center;
+    height: auto;
+    padding: 10px 0;
+    width: 40vw;
+    height: 2vw;
+    background-color: rgb(51, 102, 0);
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+   }
+   .white{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+   }
+   .red{
+    color: brown;
+    font-size: 5vh;
+   }
+   .book:hover{
+    transform: scale(1.1);
+   }
+   
+/* Для мобильных устройств можно добавить медиа-запрос */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        padding: 5vh 5vw;
+    }
+    
+    .textcontainer, .img {
+        width: 100%;
+    }
+    
+    .img {
+        height: 30vh;
+    }
+    .first{
+        background-image: url();
+        background-position: center;
+        background-repeat: repeat-y;
+    }
+}
+
+@media (max-width: 1400px) {
+    .textheader{
+        font-family: "maintext";
+        font-size: 15px;
+    }
+    .zag{
+        font-family: "zagtext";
+        font-size: 30px;
+    }
+    .main{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/i\ 2.png);
+    
+    }
+    .name{
+        position: absolute; 
+        top: 15%; 
+        padding: 0 350px;
+        font-family: "zagtext"; 
+        font-size: 50px;     
+    }
+   
+   
+}
+@media (max-width: 1100px) {
+    .textheader{
+        font-family: "maintext";
+        font-size: 15px;
+    }
+    .zag{
+        font-family: "zagtext";
+        font-size: 30px;
+    }
+    .main{
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/i\ 2.png);
+    
+    }
+    .name{
+        position: absolute; 
+        top: 10%; 
+        padding: 0 250px;
+        font-family: "zagtext"; 
+        font-size: 35px;     
+    }
+    .numbers{
+        width: 90vw; 
+        height: 60vh;
+       
+    }
+    .card {
+        flex-direction: column;
+        padding: 5vh 5vw;
+    }
+    
+    .textcontainer, .img {
+        width: 100%;
+    }
+    
+    .img {
+        height: 30vh;
+    }
+    .first{
+        background-image: url();
+        background-position: center;
+        background-repeat: repeat-y;
+        height: auto;
+    }
+    .gallery{
+        width: 40vw;
+        height: 25vh;
+        margin: 10px;
+    }
+}
+@media (max-width: 760px) {
+    .textheader .textcontainer{
+        font-family: "maintext";
+        font-size: 10px;
+    }
+    .imggal{
+        flex-direction: column;
+    }
+    .gallery{
+        width:70vw;
+        height: 25vh;
+        margin: 10px;
+    }
+    .numbers{
+        width: 90vw;
+        height: 50vh;
+    }
+    .zag{
+        font-family: "zagtext";
+        font-size: 15px;
+    }
+    .main{
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/i\ 2.png);
+    
+    }
+    .name{
+        position: absolute; 
+        top: 10%; 
+        padding: 0 200px;
+        font-family: "zagtext"; 
+        font-size: 25px;     
+    }
+    .lenta{
+        height: 10vh;
+    }
+    .first{
+        background-image: url();
+        background-position: center;
+        background-repeat: repeat-y;
+        height: auto;
+    }
+}
+@media (max-width: 560px) {
+    .textheader{
+        font-family: "maintext";
+        font-size: 10px;
+    }
+    .zag{
+        font-family: "zagtext";
+        font-size: 15px;
+    }
+    .main{
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/i\ 2.png);
+    
+    }
+    .name{
+        position: absolute; 
+        top: 10%; 
+        padding: 0 20vw;
+        font-family: "zagtext"; 
+        font-size: 20px;     
+    }
+    .numbers{
+        width: 90vw;
+        height: 50vh;
+    }
+    .lenta{
+        height: 10vh;
+    }
+    .first{
+        background-image: url();
+        background-position: center;
+        background-repeat: repeat-y;
+        height: auto;
+    }
+}
