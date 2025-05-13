@@ -193,6 +193,7 @@ footer{
         background-position: center;
         background-repeat: repeat-y;
     }
+ 
 }
 
 @media (max-width: 1400px) {
@@ -350,6 +351,11 @@ footer{
         margin-bottom: 10px;
         transition: transform 0.3s ease;
        }
+          .tp{
+    margin: 0 10px;
+    font-size: 25px;
+    font-size: 25px;
+}
 }
 @media (max-width: 560px) {
     .textheader{
@@ -402,6 +408,11 @@ footer{
         margin-bottom: 10px;
         transition: transform 0.3s ease;
        }
+          .tp{
+    margin: 0 10px;
+    font-size: 25px;
+    font-size: 20px;
+}
 }
 @media (max-width: 325px) {
     .textheader{
@@ -454,4 +465,9 @@ footer{
         margin-bottom: 10px;
         transition: transform 0.3s ease;
        }
+          .tp{
+    margin: 0 10px;
+    font-size: 25px;
+    font-size: 15px;
+}
 }
