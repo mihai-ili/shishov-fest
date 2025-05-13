@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "maintext";
+    src: url(fonts/GentiumBookPlus-Regular.ttf);
+}
+@font-face {
+    font-family: "zagtext";
+    src: url(fonts/DelaGothicOne-Regular.ttf);
+}
+.maintext{
+    font-family: "maintext";
+}
+.center{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+.top{
+    margin-top: 5vh;
+}
+header{
+    text-align: center;
+    background-color: rgb(163, 163, 163);
+}
+.textheader{
+    font-family: "maintext";
+    font-size: 20px;
+}
+.zag{
+    font-family: "zagtext";
+    font-size: 50px;
+}
+.main{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url();
+
+}
+.name{
+    position: absolute; 
+    top: 15%; 
+    padding: 0 350px;
+    font-family: "zagtext"; 
+    font-size: 70px;     
+}
+.lenta{
+    background-image: url(../img/Group\ 1\ \(7\).png);
+    height: 23vh;
+}
+.first{
+    background-image: url(../img/Rectangle\ 5.png);
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.textcontainer{
+    margin: 10vh 10vh 10vh 15vh;
+}
+.img{
+    margin: 10vh 15vh;
+}
+.second{
+    padding: 20px; 
+  }
+  
+  .gallery-container {
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+  }
+  
+  .gallery-container img {
+    width: calc(50% - 20px); 
+    margin-bottom: 20px; 
+    border-radius: 8px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    object-fit: cover; 
+    height: 300px;   
+  }
+  .description{
+    width: 150rem;
+}
