@@ -163,12 +163,10 @@ footer{
     transition: transform 0.3s ease;
    }
    .white{
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: white;
    }
    .red{
     color: brown;
-    font-size: 5vh;
    }
    .book:hover{
     transform: scale(1.1);
@@ -354,7 +352,6 @@ footer{
           .tp{
     margin: 0 10px;
     font-size: 25px;
-    font-size: 25px;
 }
 }
 @media (max-width: 560px) {
@@ -410,8 +407,7 @@ footer{
        }
           .tp{
     margin: 0 10px;
-    font-size: 25px;
-    font-size: 20px;
+    font-size: 10px;
 }
 }
 @media (max-width: 325px) {
@@ -452,7 +448,7 @@ footer{
     }
     .tbook{
         color: brown;
-        font-size: 15px;
+        font-size: 10px;
     }
     .book{
   
@@ -466,8 +462,10 @@ footer{
         transition: transform 0.3s ease;
        }
           .tp{
-    margin: 0 10px;
-    font-size: 25px;
-    font-size: 15px;
-}
+        margin: 0 10px;
+        font-size: 15px;
+        }
+        .white{
+            font-size: 10px;
+        }
 }
